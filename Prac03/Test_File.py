@@ -31,3 +31,4 @@ my_list = ['first line\n', 'second line\n', third line\n', 'fourth line\n' , 'Jo
 out_file = open( "out.txt", "w")
 out_file.writelines(my_list)
 out_file.close()
+
